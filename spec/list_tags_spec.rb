@@ -8,7 +8,7 @@ RSpec.describe 'index.html' do
 
     children = ul.children.select {|child| child.name == "li"}
     expect(children.length).to be >= 3, "Your <ul> tag needs at least three <li> tags, one for each ingredient"
-    
+
   end
 
 
